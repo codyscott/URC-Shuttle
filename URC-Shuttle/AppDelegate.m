@@ -7,15 +7,19 @@
 //
 
 #import "AppDelegate.h"
+//#import "URCScheduleTableViewController.h"
+//#import "GW3ScheduleTableViewController.h"
+//#import "UTTCScheduleTableViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    // make sure these classes get linked in
+//    [URCScheduleTableViewController class];
+//    [GW3ScheduleTableViewController class];
+//    [UTTCScheduleTableViewController class];
+    
     return YES;
 }
 
